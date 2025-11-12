@@ -1,4 +1,4 @@
-package secao1;
+package aulaJAVA.secao1;
 
 public class HelloWorld {
     public static void main(String[] args) {
