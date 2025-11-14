@@ -19,6 +19,14 @@ public class testeScanner {
         System.out.println("Digite sua idade: ");
         int idade = scanner.nextInt();
         System.out.println("Voce tem " + idade + " anos de idade!");
+
+        // Erro nextLine
+        System.out.println("Digite um número: ");
+        int n = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Digite um texto: ");
+        String txt = scanner.nextLine();
+        System.out.println("O numero é: " + n + " e o texto é: " + txt + ".");
         
         // Fechamento do scanner, para evitar memory leak
         scanner.close();
